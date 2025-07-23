@@ -1,5 +1,0 @@
-strategy_name,execution_time,memory_peak_mb,makespan,num_jobs,num_machines,iterations
-optimized_shortest_processing_time_run_1,0.0004117379994568182,0.010708808898925781,76,10,3,
-optimized_longest_processing_time_run_3,0.00020590700114553329,0.006626129150390625,81,10,3,
-optimized_balanced_run_3,0.00024587600091763306,0.006497383117675781,76,10,3,
-optimized_greedy_makespan_run_1,0.0006244380001589889,0.012254714965820312,79,10,3,
