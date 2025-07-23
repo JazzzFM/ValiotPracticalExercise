@@ -1,0 +1,187 @@
+{
+  "problem_size": {
+    "num_jobs": 10,
+    "num_machines": 3
+  },
+  "benchmark_results": [
+    {
+      "strategy_name": "optimized_shortest_processing_time_run_1",
+      "execution_time": 0.0005612990000827267,
+      "memory_peak": 0.011143684387207031,
+      "makespan": 73,
+      "job_sequence": [
+        1,
+        3,
+        4,
+        6,
+        7,
+        8,
+        2,
+        5,
+        9,
+        0
+      ],
+      "num_jobs": 10,
+      "num_machines": 3,
+      "iterations": null
+    },
+    {
+      "strategy_name": "optimized_longest_processing_time_run_1",
+      "execution_time": 0.0004487250000693166,
+      "memory_peak": 0.007427215576171875,
+      "makespan": 83,
+      "job_sequence": [
+        0,
+        2,
+        5,
+        9,
+        6,
+        7,
+        8,
+        1,
+        3,
+        4
+      ],
+      "num_jobs": 10,
+      "num_machines": 3,
+      "iterations": null
+    },
+    {
+      "strategy_name": "optimized_balanced_run_1",
+      "execution_time": 0.0005122659999869938,
+      "memory_peak": 0.007534980773925781,
+      "makespan": 79,
+      "job_sequence": [
+        0,
+        3,
+        2,
+        9,
+        6,
+        7,
+        4,
+        5,
+        8,
+        1
+      ],
+      "num_jobs": 10,
+      "num_machines": 3,
+      "iterations": null
+    },
+    {
+      "strategy_name": "optimized_greedy_makespan_run_1",
+      "execution_time": 0.001333653999836315,
+      "memory_peak": 0.013566970825195312,
+      "makespan": 85,
+      "job_sequence": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "num_jobs": 10,
+      "num_machines": 3,
+      "iterations": null
+    }
+  ],
+  "statistics": {
+    "optimized_shortest_processing_time": {
+      "execution_time": {
+        "mean": 0.0005612990000827267,
+        "median": 0.0005612990000827267,
+        "stdev": 0,
+        "min": 0.0005612990000827267,
+        "max": 0.0005612990000827267
+      },
+      "makespan": {
+        "mean": 73,
+        "median": 73,
+        "stdev": 0,
+        "min": 73,
+        "max": 73
+      },
+      "memory_peak_mb": {
+        "mean": 0.011143684387207031,
+        "median": 0.011143684387207031,
+        "stdev": 0,
+        "min": 0.011143684387207031,
+        "max": 0.011143684387207031
+      }
+    },
+    "optimized_longest_processing_time": {
+      "execution_time": {
+        "mean": 0.0004487250000693166,
+        "median": 0.0004487250000693166,
+        "stdev": 0,
+        "min": 0.0004487250000693166,
+        "max": 0.0004487250000693166
+      },
+      "makespan": {
+        "mean": 83,
+        "median": 83,
+        "stdev": 0,
+        "min": 83,
+        "max": 83
+      },
+      "memory_peak_mb": {
+        "mean": 0.007427215576171875,
+        "median": 0.007427215576171875,
+        "stdev": 0,
+        "min": 0.007427215576171875,
+        "max": 0.007427215576171875
+      }
+    },
+    "optimized_balanced": {
+      "execution_time": {
+        "mean": 0.0005122659999869938,
+        "median": 0.0005122659999869938,
+        "stdev": 0,
+        "min": 0.0005122659999869938,
+        "max": 0.0005122659999869938
+      },
+      "makespan": {
+        "mean": 79,
+        "median": 79,
+        "stdev": 0,
+        "min": 79,
+        "max": 79
+      },
+      "memory_peak_mb": {
+        "mean": 0.007534980773925781,
+        "median": 0.007534980773925781,
+        "stdev": 0,
+        "min": 0.007534980773925781,
+        "max": 0.007534980773925781
+      }
+    },
+    "optimized_greedy_makespan": {
+      "execution_time": {
+        "mean": 0.001333653999836315,
+        "median": 0.001333653999836315,
+        "stdev": 0,
+        "min": 0.001333653999836315,
+        "max": 0.001333653999836315
+      },
+      "makespan": {
+        "mean": 85,
+        "median": 85,
+        "stdev": 0,
+        "min": 85,
+        "max": 85
+      },
+      "memory_peak_mb": {
+        "mean": 0.013566970825195312,
+        "median": 0.013566970825195312,
+        "stdev": 0,
+        "min": 0.013566970825195312,
+        "max": 0.013566970825195312
+      }
+    }
+  },
+  "best_strategy": "optimized_shortest_processing_time_run_1"
+}
